@@ -4,14 +4,16 @@
 #define _USE_MATH_DEFINES
 using namespace std;
 int main() {
-    long long k, c, b;
+    long long k, c, b, d;
     double x, eps, y, cosin, sum;
     cout << "Enter x: " << endl;
     cin >> x;
-    cout << "Enter k (Note: the larger 'k', the greater the accuracy and the longer the calculation.): " << endl;
+    cout << "Enter k (Note: number of decimal places): " << endl;
     cin >> k;
+    cout << "Enter d (Note: determines the accuracy of the calculated value): " << endl;
+    cin >> d;
     y = 1;
-    eps = pow(10, -k);
+    eps = pow(10, -d);
     cosin = cos(x);
     sum = (0);
     b = 1;
@@ -32,7 +34,7 @@ int main() {
         sum += y;
         y *= (-1);
     }
-    cout << "Standart function: " << fixed << setprecision(30) << cosin << endl;
-    cout << "Program result:    " << fixed << setprecision(30) << sum;
+    cout << "Standart function: " << fixed << setprecision(k) << cosin << endl;
+    cout << "Program result:    " << fixed << setprecision(k) << sum;
     return 0;
 }

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/CLionProjects/untitled1/cmake-build-debug"
+			"value" : "c:/Git/Teylor.lab/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Git/Teylor.lab/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/CLionProjects/untitled1"
+			"value" : "C:/Git/Teylor.lab"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1275,7 +1275,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/CLionProjects/untitled1/cmake-build-debug"
+			"value" : "C:/Git/Teylor.lab/cmake-build-debug"
 		},
 		{
 			"name" : "untitled1_IS_TOP_LEVEL",
@@ -1299,7 +1299,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/CLionProjects/untitled1"
+			"value" : "C:/Git/Teylor.lab"
 		}
 	],
 	"kind" : "cache",
